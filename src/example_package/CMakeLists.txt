@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  std_srvs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -139,6 +140,9 @@ target_link_libraries(talker_node ${catkin_LIBRARIES})
 
 add_executable(listener_node src/listener.cpp)
 target_link_libraries(listener_node ${catkin_LIBRARIES})
+
+add_executable(service_node src/service_server.cpp)
+target_link_libraries(service_node ${catkin_LIBRARIES})
 
 
 ## Rename C++ executable without prefix

@@ -1,0 +1,3 @@
+<launch>
+    <node name="service_ros_node" type="service_node" pkg="example_package" output="screen"/>
+</launch>
