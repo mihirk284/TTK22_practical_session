@@ -1,0 +1,7 @@
+<launch>
+    <param name="chatter_topic_name" value="dummy_topic"/>
+    <group ns="pubsub">
+        <node name="talker_ros_node" type="talker_node" pkg="example_package" output="screen"/>
+        <node name="listener_ros_node" type="listener_node" pkg="example_package" output="screen" required="true"/>
+    </group>
+</launch>
