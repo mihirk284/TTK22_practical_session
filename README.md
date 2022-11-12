@@ -7,6 +7,20 @@ Contact: mihir.kulkarni@ntnu.no
 ## Lecture Slides and Videos available [here](https://rsl.ethz.ch/education-students/lectures/ros.html) 
 
 ---
+## ROS Installations
+
+1) Directly to your Linux (20.04 or lower version OS) computer \
+Ubuntu 20.04 - http://wiki.ros.org/noetic/Installation \
+Ubuntu 18.04 - https://wiki.ros.org/melodic/Installation
+
+OR 
+
+2) Virtual Machine (Preferably on 20.04)\
+Instructions: https://github.com/sutd-robotics/virtualbox-ubuntu-ros
+
+**Note: There is no difference with respoect to implementation for the assignment if your computer has either 18.04 - ROS Melodic, or 20.04 - ROS Noetic.**
+
+---
 
 ## Catkin Tools
 
