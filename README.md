@@ -56,8 +56,8 @@ Using catkin tools
 
 ```sh
 catkin_create_pkg example_package roscpp std_msgs rospy message_generation
-catkin build
 catkin config -DCMAKE_BUILD_TYPE=Release
+catkin build
 ```
 
 ---
