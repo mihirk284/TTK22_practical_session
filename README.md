@@ -18,7 +18,7 @@ OR
 2) Virtual Machine (Preferably on 20.04)\
 Instructions: https://github.com/sutd-robotics/virtualbox-ubuntu-ros
 
-**Note: There is no difference with respoect to implementation for the assignment if your computer has either 18.04 - ROS Melodic, or 20.04 - ROS Noetic.**
+**Note: There is no difference with respect to implementation for the assignment if your computer has either 18.04 - ROS Melodic, or 20.04 - ROS Noetic.**
 
 ---
 
